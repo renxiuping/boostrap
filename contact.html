@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<header>
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="img/logo.jpg" alt=""></a>
+            </div>
+            <div id="navbarCollapse" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="details.html">宠物品种</a></li>
+                    <li><a href="other.html">宠物用品</a></li>
+                    <li><a href="consul.html">萌宠咨询</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="contact.html"  style="background:#1fadc5; color: #fff;">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="banner">
+    <img src="img/ban4.jpg" alt="">
+</div>
+<section>
+    <div class="container">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-12 text-center">
+                <h1 style="color:#1fadc5">——联系我们——</h1>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-md-6 col-xs-12 col-md-push-3">
+                <form>
+                   <p> <input type="text" placeholder="    请输入您的姓名"></p>
+                   <p> <input type="text" id="email" placeholder="    请输入您的邮箱" onkeyup="checKemail()">
+                       <span id="emailspan"></span>
+                   </p>
+                   <p> <input type="text" id="phone" placeholder="    请输入您的电话" onkeyup="checKphone()"><br>
+                       <span id="phonespan"></span></p>
+                   <p> <input type="text" placeholder="    请输入其他要求"></p>
+                    <p  class="text-right"><button type="submit" class="btn btn-info">提交</button></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+       <div class="row" style="font-size: 16px;margin-top: 10px;color:#555555;">
+           <div class="col-md-4">
+               <h3 style="margin-bottom:40px;">关于我们</h3>
+               <ul>
+                   <li>让天下宠物得到人间关爱</li>
+                   <li>是XX始终不变的企业愿景</li>
+                   <li>这就是XX步步领先的秘诀所在</li>
+               </ul>
+           </div>
+           <div class="col-md-4 dv1">
+               <h3 style="margin-bottom:40px;">我们的服务</h3>
+               <ul>
+                   <li><a href="#"><i class="fa fa-caret-right"></i>&nbsp;宠物品种</a></li>
+                   <li><a href="#"><i class="fa fa-caret-right"></i>&nbsp;萌宠资讯</a></li>
+                   <li><a href="#"><i class="fa fa-caret-right"></i>&nbsp;宠物用品</a></li>
+                   <li><a href="#"><i class="fa fa-caret-right"></i>&nbsp;联系我们</a></li>
+               </ul>
+           </div>
+           <div class="col-md-4 dv2">
+               <h3 style="margin-bottom:40px;">我们的服务</h3>
+               <div class="row rows">
+                   <div class="col-md-12 col-xs-12">
+                       <div class="thu">
+                       <img src="img/kinds%20(2).jpg" alt="">
+                       </div>
+                       <div class="thumb">
+                       <p><a href="#" style="text-decoration:none;color: #555;">法国斗牛犬</a></p>
+                       <span style="font-size: 14px;color: #999;">聪明敏捷  开朗不常吠</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="row rows">
+                   <div class="col-md-12 col-xs-12">
+                       <div class="thu">
+                           <img src="img/kinds%20(3).jpg" alt="">
+                       </div>
+                       <div class="thumb">
+                           <p><a href="#" style="text-decoration:none;color: #555;">金毛系列</a></p>
+                           <span style="font-size: 14px;color: #999;">热情友善  自信且不怕生</span>
+                       </div>
+                   </div>
+               </div>
+               <div class="row rows">
+                   <div class="col-md-12 col-xs-12">
+                       <div class="thu">
+                           <img src="img/kinds%20(4).jpg" alt="">
+                       </div>
+                       <div class="thumb">
+                           <p><a href="#" style="text-decoration:none;color: #555;">萨摩系列 </a></p>
+                           <span style="font-size: 14px;color: #999;">乖巧可爱  微笑天使</span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
+</footer>
+<div class="foot">
+    <div class="container">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-6 col-sm-6">
+                <p style="color: #555;">昆山市宽敬科技有限公司. 苏ICP备15052717号-1.</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div style="float: right">
+                    <ul>
+                        <li>
+                            <a href="#" class="one"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="two"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="three"><i class="fa fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  function checKphone(){
+      var sjh=document.getElementById("phone").value;
+      var a = /^1\d{10}$/;
+      if(!a.test(sjh)){
+          document.getElementById("phonespan").innerHTML="手机号不符合规范";
+      }else{
+          document.getElementById("phonespan").innerHTML="正确";
+      }
+  }
+  function checKemail() {
+      var yx = document.getElementById("email").value;
+      var a = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/;
+      if (!a.test(yx)) {
+          document.getElementById("emailspan").innerHTML = "不符合规范"
+      } else {
+          document.getElementById("emailspan").innerHTML = "正确"
+      }
+  }
+</script>
+</html>
